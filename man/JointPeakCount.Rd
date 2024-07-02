@@ -11,3 +11,6 @@ JointPeakCount(readsOut, joint_threshold = 2)
 
 \item{joint_threshold}{Require a bin to be called as a peak in joint_threshold number of samples to be a joint peak.}
 }
+\description{
+JointPeakCount
+}

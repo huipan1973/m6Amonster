@@ -16,3 +16,6 @@ adjustExprLevel(x, adjustBy = "geneSum", mode)
 \value{
 x The data list now with IP-count adjusted for expression level added
 }
+\description{
+adjustExprLevel
+}

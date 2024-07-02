@@ -4,9 +4,19 @@
 \alias{countReads}
 \title{countReads}
 \usage{
-countReads(samplenames, gtf, fragmentLength = 150, bamFolder,
-  outputDir = NA, modification = "m6A", binSize = 50,
-  strandToKeep = "opposite", paired = FALSE, threads = 1)
+countReads(
+  samplenames,
+  gtf,
+  fragmentLength = 150,
+  bamFolder,
+  outputDir = NA,
+  modification = "m6A",
+  binSize = 50,
+  strandToKeep = "opposite",
+  paired = FALSE,
+  threads = 1,
+  saveOutput = T
+)
 }
 \arguments{
 \item{samplenames}{The names of each sample (prefix for bam files)}
@@ -29,5 +39,8 @@ countReads(samplenames, gtf, fragmentLength = 150, bamFolder,
 
 \item{threads}{The number of threads to use for hyperthreading}
 
-\item{sasaveOutput}{Logical option indicating whether to save output as an RDS file.}
+\item{saveOutput}{Logical option indicating whether to save output as an RDS file.}
+}
+\description{
+countReads
 }

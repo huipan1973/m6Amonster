@@ -4,8 +4,18 @@
 \alias{plotGene}
 \title{plotGene}
 \usage{
-plotGene(IP_BAM, INPUT_BAM, size.IP, size.INPUT, geneName, geneModel,
-  libraryType = "opposite", center = mean, GTF, ZoomIn = NULL)
+plotGene(
+  IP_BAM,
+  INPUT_BAM,
+  size.IP,
+  size.INPUT,
+  geneName,
+  geneModel,
+  libraryType = "opposite",
+  center = mean,
+  GTF,
+  ZoomIn = NULL
+)
 }
 \arguments{
 \item{IP_BAM}{The bam files for IP samples}
@@ -23,4 +33,7 @@ plotGene(IP_BAM, INPUT_BAM, size.IP, size.INPUT, geneName, geneModel,
 \item{libraryType}{"opposite" for mRNA stranded library, "same" for samll RNA library}
 
 \item{GTF}{gtf annotation as GRanges object. Can be obtained by GTF <- rtracklayer::import("xxx.gtf",format = "gtf")}
+}
+\description{
+plotGene
 }

@@ -4,8 +4,12 @@
 \alias{reportConsistentPeak}
 \title{reportConsistentPeak}
 \usage{
-reportConsistentPeak(readsOut, samplenames, joint_threshold = NULL,
-  threads = 1)
+reportConsistentPeak(
+  readsOut,
+  samplenames,
+  joint_threshold = NULL,
+  threads = 1
+)
 }
 \arguments{
 \item{readsOut}{The data list contain peak calling result}
@@ -17,4 +21,7 @@ This option is useful only when joint poeak has not been reported by jointPeakCo
 }
 \value{
 merged.report The joint peak of merged bins.
+}
+\description{
+reportConsistentPeak
 }

@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // gradient_beta_psi_mu2
 arma::vec gradient_beta_psi_mu2(arma::vec Y, arma::vec X, double beta, double psi, double mu2, int n);
 RcppExport SEXP _m6Amonster_gradient_beta_psi_mu2(SEXP YSEXP, SEXP XSEXP, SEXP betaSEXP, SEXP psiSEXP, SEXP mu2SEXP, SEXP nSEXP) {

@@ -9,3 +9,6 @@ QNBtest(x)
 \arguments{
 \item{x}{The monster data object}
 }
+\description{
+QNBtest
+}

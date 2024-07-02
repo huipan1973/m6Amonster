@@ -13,3 +13,6 @@ plotExpression(RDM, geneName, logCount = FALSE)
 
 \item{logCount}{where to plot count at log scale}
 }
+\description{
+plotExpression
+}

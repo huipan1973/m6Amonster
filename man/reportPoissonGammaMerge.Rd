@@ -13,3 +13,6 @@ reportPoissonGammaMerge(x, cutoff, est = "auto")
 
 \item{est}{By default "auto", the function takes estimates from given The RNADMethyl data list. One can also pass a test estimates by assigning it to stats.}
 }
+\description{
+reportPoissonGammaMerge
+}

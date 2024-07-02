@@ -4,8 +4,14 @@
 \alias{plotGeneMonster}
 \title{plotGeneMonster}
 \usage{
-plotGeneMonster(readsOut, geneName, libraryType = "opposite",
-  center = "mean", GTF, ZoomIn = NULL)
+plotGeneMonster(
+  readsOut,
+  geneName,
+  libraryType = "opposite",
+  center = "mean",
+  GTF,
+  ZoomIn = NULL
+)
 }
 \arguments{
 \item{readsOut}{The data list from countReads and other analysis.}
@@ -15,4 +21,7 @@ plotGeneMonster(readsOut, geneName, libraryType = "opposite",
 \item{GTF}{The GRanges object containing gtf annotation.}
 
 \item{ZoomIn}{c(start,end) The coordinate to zoom in at the gene to be ploted.}
+}
+\description{
+plotGeneMonster
 }

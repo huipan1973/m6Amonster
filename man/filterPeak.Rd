@@ -16,3 +16,6 @@ filterPeak(readsOut, minINPUT = 15, minIP = 30)
 \value{
 readsOut with updated jointPeak_id_pairs that have been filtered by read count.
 }
+\description{
+filterPeak
+}

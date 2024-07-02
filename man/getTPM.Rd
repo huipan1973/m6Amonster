@@ -13,3 +13,6 @@ getTPM(x, meanFragmentLength = 150, normalize = T)
 
 \item{normalize}{Logical indicating whether normalized TPM or raw TPM should be returned.}
 }
+\description{
+getTPM
+}

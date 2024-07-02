@@ -15,3 +15,6 @@ This option is useful only when joint poeak has not been reported by jointPeakCo
 \value{
 merged.report The joint peak of merged bins.
 }
+\description{
+reportJointPeak
+}

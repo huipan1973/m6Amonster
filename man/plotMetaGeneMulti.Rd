@@ -4,8 +4,12 @@
 \alias{plotMetaGeneMulti}
 \title{plotMEtaGeneMulti A wrapper function for Guitar to plot meta gene plot of multiple samples overlaid on each other.}
 \usage{
-plotMetaGeneMulti(peakList, gtf, saveToPDFprefix = NA,
-  includeNeighborDNA = FALSE)
+plotMetaGeneMulti(
+  peakList,
+  gtf,
+  saveToPDFprefix = NA,
+  includeNeighborDNA = FALSE
+)
 }
 \arguments{
 \item{peakList}{The list of peak, each object of list should have a data frame of peak in bed12 format.}
@@ -15,4 +19,7 @@ plotMetaGeneMulti(peakList, gtf, saveToPDFprefix = NA,
 \item{saveToPDFprefix}{Set a name to save the plot to PDF.}
 
 \item{includeNeighborDNA}{Whether to include upstrean and downstream region in the meta gene.}
+}
+\description{
+plotMEtaGeneMulti A wrapper function for Guitar to plot meta gene plot of multiple samples overlaid on each other.
 }

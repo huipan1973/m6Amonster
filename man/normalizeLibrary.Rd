@@ -14,3 +14,6 @@ normalizeLibrary(readsOut, X)
 \value{
 norm_lib returns the list of normalized reads, study design and gene-bin names
 }
+\description{
+normalizeLibrary
+}

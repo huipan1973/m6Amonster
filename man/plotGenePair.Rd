@@ -4,9 +4,22 @@
 \alias{plotGenePair}
 \title{plotGenePair}
 \usage{
-plotGenePair(Ctl_IP_BAM, Ctl_INPUT_BAM, Treat_IP_BAM, Treat_INPUT_BAM,
-  Ctl_size.IP, Ctl_size.INPUT, Treat_size.IP, Treat_size.INPUT, geneName,
-  geneModel, libraryType = "ooposite", center = mean, GTF, ZoomIn = NULL)
+plotGenePair(
+  Ctl_IP_BAM,
+  Ctl_INPUT_BAM,
+  Treat_IP_BAM,
+  Treat_INPUT_BAM,
+  Ctl_size.IP,
+  Ctl_size.INPUT,
+  Treat_size.IP,
+  Treat_size.INPUT,
+  geneName,
+  geneModel,
+  libraryType = "ooposite",
+  center = mean,
+  GTF,
+  ZoomIn = NULL
+)
 }
 \arguments{
 \item{Ctl_IP_BAM}{The bam files for Control IP samples}

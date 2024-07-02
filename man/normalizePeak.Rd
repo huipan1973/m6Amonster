@@ -11,3 +11,6 @@ normalizePeak(readsOut, X)
 
 \item{X}{Study design or Grouping for the samples, should have 2 levels}
 }
+\description{
+normalizePeak
+}

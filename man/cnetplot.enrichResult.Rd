@@ -4,8 +4,14 @@
 \alias{cnetplot.enrichResult}
 \title{cnetplot.enrichResult}
 \usage{
-cnetplot.enrichResult(x, showCategory = 5, categorySize = "pvalue",
-  foldChange = NULL, fixed = TRUE, ...)
+cnetplot.enrichResult(
+  x,
+  showCategory = 5,
+  categorySize = "pvalue",
+  foldChange = NULL,
+  fixed = TRUE,
+  ...
+)
 }
 \arguments{
 \item{x}{The dataframe of enrichment analysis result}
@@ -13,4 +19,7 @@ cnetplot.enrichResult(x, showCategory = 5, categorySize = "pvalue",
 \item{showCategory}{The number of enriched term to show}
 
 \item{categorySize}{column name of x that used to scale the GO term. defult is "pvalue" scale the categorySize by enrichment pvalue}
+}
+\description{
+cnetplot.enrichResult
 }

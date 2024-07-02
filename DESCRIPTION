@@ -11,6 +11,6 @@ Encoding: UTF-8
 LazyData: true
 import: Guitar, stringr,vcfR
 Depends: GenomicFeatures, Rsamtools, ggplot2, doParallel, foreach,grid,rtracklayer,GenomicAlignments,reshape2,Rcpp,RcppArmadillo
-RoxygenNote: 6.0.1
+RoxygenNote: 7.3.1
 LinkingTo: Rcpp, RcppArmadillo
-Imports:Rcpp, RcppArmadillo
+Imports: Rcpp, RcppArmadillo

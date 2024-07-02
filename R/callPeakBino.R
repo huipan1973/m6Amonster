@@ -5,6 +5,7 @@
 #' @param peak_cutoff_oddRatio The minimal oddRatio of fisher's exact test to call peak.
 #' @param threads The number of threads to use. Default uses 1 threads.
 #' @export
+
 callPeakBinomial <- function(readsOut, min_counts = 15, peak_cutoff_fdr = 0.05 , peak_cutoff_oddRatio = 1, threads = 1){
   input <- as.matrix(readsOut$reads[,1:length(readsOut$samplenames)])
   m6A <- as.matrix(readsOut$reads[,(1+length(readsOut$samplenames)):(2*length(readsOut$samplenames))])

@@ -4,8 +4,15 @@
 \alias{diffIP}
 \title{diffIP}
 \usage{
-diffIP(x, Covariates = NULL, plotPvalue = TRUE, p.adjBy = "fdr",
-  exclude = NULL, mode, maxPsi = 100)
+diffIP(
+  x,
+  Covariates = NULL,
+  plotPvalue = TRUE,
+  p.adjBy = "fdr",
+  exclude = NULL,
+  mode,
+  maxPsi = 100
+)
 }
 \arguments{
 \item{x}{The RNADMethyl data list}
@@ -22,4 +29,7 @@ diffIP(x, Covariates = NULL, plotPvalue = TRUE, p.adjBy = "fdr",
 }
 \value{
 x The RNADMethyl data list with estimators
+}
+\description{
+diffIP
 }

@@ -4,8 +4,15 @@
 \alias{plotGeneCov}
 \title{plotGeneCov}
 \usage{
-plotGeneCov(readsOut, geneName, libraryType = "opposite", center = "mean",
-  GTF, ZoomIn = NULL, adjustExprLevel = TRUE)
+plotGeneCov(
+  readsOut,
+  geneName,
+  libraryType = "opposite",
+  center = "mean",
+  GTF,
+  ZoomIn = NULL,
+  adjustExprLevel = TRUE
+)
 }
 \arguments{
 \item{readsOut}{The data list from countReads and other analysis.}
@@ -21,4 +28,7 @@ plotGeneCov(readsOut, geneName, libraryType = "opposite", center = "mean",
 \item{ZoomIn}{c(start,end) The coordinate to zoom in at the gene to be ploted.}
 
 \item{adjustExprLevel}{logical parameter. Specify whether normalize the two group so that they have similar expression level.}
+}
+\description{
+plotGeneCov
 }

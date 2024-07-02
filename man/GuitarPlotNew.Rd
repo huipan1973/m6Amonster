@@ -4,8 +4,21 @@
 \alias{GuitarPlotNew}
 \title{GuitarPlotNew}
 \usage{
-GuitarPlotNew(gfeatures, GuitarCoordsFromTxDb = NA, txdb = NA,
-  genome = NA, noBins = 10, saveToPDFprefix = NA, returnCount = FALSE,
-  includeNeighborDNA = FALSE, maximalFeatureAmbiguity = 5,
-  rescaleComponent = TRUE, fill = FALSE, adjust = 1)
+GuitarPlotNew(
+  gfeatures,
+  GuitarCoordsFromTxDb = NA,
+  txdb = NA,
+  genome = NA,
+  noBins = 10,
+  saveToPDFprefix = NA,
+  returnCount = FALSE,
+  includeNeighborDNA = FALSE,
+  maximalFeatureAmbiguity = 5,
+  rescaleComponent = TRUE,
+  fill = FALSE,
+  adjust = 1
+)
+}
+\description{
+GuitarPlotNew
 }
